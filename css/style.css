@@ -13,46 +13,6 @@ p {
 	font-family: 'Open Sans', sans-serif;
 }
 
-.row-header {
-  padding: 5vh 10vw 0 10vw;
-  background-image: url("https://davidau8195.github.io/aboutme/icons/background.jpg");
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: cover;
-  display: flex;
-  align-items: center
-}
-
-.header-col {
-	position: relative;
- 	background: rgb(255, 255, 255);
-	box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.18);
-	bottom: -95px;
-	max-width:550px;
-	margin:auto;
-}
-
-.row-footer {
-	padding: 0vh 10vw 10vw 10vw;
-	margin-top:140px;
-	background-image: url("https://davidau8195.github.io/aboutme/icons/background.jpg");
-	background-position: bottom;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-}
-
-.footer-col {
-	position: relative;
-	background: rgb(255, 255, 255);
-	border-radius: 5px;
-	box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.18);
-	top: -20px;
-	padding: 10px 0;
-	max-width:420px;
-	margin:auto;
-}
-
 /* Setting up the menu bar*/
 .topnav {
   background-color: #333;
@@ -60,6 +20,7 @@ p {
   top: 0;
   width: 100%;
   display:flex;
+  z-index:1;
 }
 
 /* Style the menu bar and dropdown content */
@@ -117,6 +78,46 @@ p {
 /* Show the Dropdown Content as blocks*/
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.row-header {
+  padding: 5vh 10vw 0 10vw;
+  background-image: url("https://davidau8195.github.io/aboutme/icons/background.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  align-items: center
+}
+
+.header-col {
+	position: relative;
+ 	background: rgb(255, 255, 255);
+	box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.18);
+	bottom: -95px;
+	max-width:550px;
+	margin:auto;
+}
+
+.row-footer {
+	padding: 0vh 10vw 10vw 10vw;
+	margin-top:140px;
+	background-image: url("https://davidau8195.github.io/aboutme/icons/background.jpg");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.footer-col {
+	position: relative;
+	background: rgb(255, 255, 255);
+	border-radius: 5px;
+	box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.18);
+	top: -20px;
+	padding: 10px 0;
+	max-width:420px;
+	margin:auto;
 }
 
 /* Main content */
