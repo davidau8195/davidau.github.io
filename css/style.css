@@ -13,6 +13,11 @@ p {
 	font-family: 'Open Sans', sans-serif;
 }
 
+/* Line break */
+hr {
+	max-width:450px;
+}
+
 /* Setting up the menu bar*/
 .topnav {
   background-color: #333;
@@ -80,6 +85,7 @@ p {
   display: block;
 }
 
+/* Header Format */
 .row-header {
   padding: 5vh 10vw 0 10vw;
   background-image: url("https://davidau8195.github.io/aboutme/icons/background.jpg");
@@ -90,6 +96,7 @@ p {
   align-items: center
 }
 
+/* Header Content Format */
 .header-col {
 	position: relative;
  	background: rgb(255, 255, 255);
@@ -99,6 +106,7 @@ p {
 	margin:auto;
 }
 
+/* Footer Format */
 .row-footer {
 	padding: 0vh 10vw 10vw 10vw;
 	margin-top:140px;
@@ -109,6 +117,7 @@ p {
 	position: relative;
 }
 
+/* Footer Content Format */
 .footer-col {
 	position: relative;
 	background: rgb(255, 255, 255);
@@ -116,23 +125,8 @@ p {
 	box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.18);
 	top: -20px;
 	padding: 10px 0;
-	max-width:420px;
+	max-width:820px;
 	margin:auto;
-}
-
-/* Main content */
-.main {
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
-}
-
-/* My Email */
-.email {
-	margin-top:20px;
-}
-
-/* Email Icon */
-.email .glyphicon {
-	margin-right:5px;
 }
 
 /* Overall sections of the layout settings */
@@ -148,108 +142,55 @@ section {
   	font-size: 2.6em;
 }
 
-
-
-/* Below needs lots of work!!!! */
-
-
-
-
-hr {
-	max-width:300px;
-}
-
-
-.navbar.navbar-default {
-	background: none;
-	border: none; 
-  z-index: 1;
-}
-
-
-.navbar-default .navbar-text {
-	color:white;
-}
-
-
-
-
-.profile-pic {
-	border-radius:50%;
-	width:40%;
-	max-width: 200px;
-}
-
-.header-col h2 {
-	font-size: 1.3em;
-  margin-bottom: 20px;
-  margin-top: 0;
-}
-
-
-
-.project-img-col img {
-	max-width: 250px;
-  margin: auto;
-}
-
-
+/* List out the items */
 .list-container {
-  max-width: 600px;
-  margin: auto;
+	max-width: 550px;
+	margin: auto;
 }
 
-.techlogo {
-	width:140px;
+/* My Email */
+.email {
+	margin-top:20px;
 }
 
-.tech-item {
-	margin:10px;
-  display: inline-flex;
-  align-items: center;
-  flex-direction: column;
+/* Email Icon */
+.email .glyphicon {
+	margin-right:5px;
 }
 
-.tech-item-text {
-	margin-top:10px;
+/* Language w/ Icons Settings */
+.lang-item {
+	margin:5px;
+	display: inline-flex;
+	align-items: center;
+	flex-direction: column;
 }
 
-.tech-item i {
+/* Text for the Language Names */
+.lang-item-text {
+	margin-top:20px;
+}
+
+/* Szie of Language Names */
+.lang-item i {
 	font-size:5em;
 }
 
+/* List out my tools */
 .tech-tool-item {
-	margin-left:15px;
-  display: inline-block;;
+	margin-left:25px;
+	display: inline-block;;
 }
 
+/* If you want to include a pic... */
+/*.profile-pic {
+	border-radius:50%;
+	width:40%;
+	max-width: 200px;
+}*/
 
-
-.btn.outline {
-	background: none;
-	padding: 12px 22px;
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
 
-.btn-primary.outline {
-	border: 2px solid #0099cc;
-	color: #0099cc;
-	border:0;
-}
-
-.linkedin-btn {
-	background-color: white;
-	width:140px;
-	box-shadow: 0px 2px 5px 1px lightgrey;
-	padding: 12px;
-	border-radius: 5px;
-}
-
-.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
-	color: #33a6cc;
-	border-color: #33a6cc;
-}
-.btn-primary.outline:active, .btn-primary.outline.active {
-	border-color: #007299;
-	color: #007299;
-	box-shadow: none;
-}
