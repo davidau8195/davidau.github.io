@@ -90,7 +90,7 @@ hr {
   padding: 5vh 10vw 0 10vw;
   background-image: url("https://davidau8195.github.io/home/img/yourname.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
   display: flex;
   align-items: center
