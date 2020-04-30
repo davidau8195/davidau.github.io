@@ -93,6 +93,7 @@ hr {
   background-position: top;
   background-size: cover;
   display: flex;
+  position: relative;
   align-items: center
 }
 
