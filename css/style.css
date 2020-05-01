@@ -133,7 +133,7 @@ hr {
 /* Overall sections of the layout settings */
 section {
 	width:100%;
-  	margin: 100px -10px;
+  	margin: 50px -10px;
 	padding: 0 5%;
 }
 
@@ -145,7 +145,13 @@ section {
 
 /* List out the items */
 .list-container {
-	max-width: 550px;
+	max-width: 900px;
+	margin: auto;
+}
+
+/* List out the items */
+.list-container2 {
+	max-width: 600px;
 	margin: auto;
 }
 
