@@ -87,10 +87,10 @@ hr {
 
 /* Header Format */
 .row-header {
-  padding: 5vh 10vw 0 10vw;
+  padding: 0vh 10vw 0 10vw;
   background-image: url("https://davidau8195.github.io/home/img/yourname.png");
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   background-size: cover;
   display: flex;
   position: relative;
